@@ -1,0 +1,33 @@
+# Ambiente virtual gerenciado pelo Poetry
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Relatórios de ferramentas de segurança
+bandit-report.json
+safety-report.json
+.ruff_cache/
+
+# Variáveis de ambiente — NUNCA commitar segredos
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
