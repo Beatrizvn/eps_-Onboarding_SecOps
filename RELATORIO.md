@@ -79,7 +79,7 @@ Files skipped (0):
 
 > **Resultado: 0 vulnerabilidades (CVEs) encontradas nas 46 dependências escaneadas.**
 
-*Comando: `poetry run safety scan`*
+*Comando: `poetry run safety check`*
 
 ```
 Safety v3.7.0 scanning for Vulnerabilities...
@@ -120,9 +120,7 @@ O pipeline automatizado foi configurado no GitHub Actions com os seguintes stage
 3. **[SCA] Safety** — Verificação de CVEs em dependências
 
 - **Repositório:** [https://github.com/Beatrizvn/eps_-Onboarding_SecOps](https://github.com/Beatrizvn/eps_-Onboarding_SecOps)
-- **Link do GitHub Actions:** [https://github.com/Beatrizvn/eps_-Onboarding_SecOps/actions](https://github.com/Beatrizvn/eps_-Onboarding_SecOps/actions)
-
-> **Nota:** Após o primeiro push, aguardar a execução do workflow "DevSecOps Pipeline" e atualizar este campo com o link direto da run de sucesso.
+- **Link da Action de Sucesso:** [https://github.com/Beatrizvn/eps_-Onboarding_SecOps/actions/runs/23874250092/job/69613467150](https://github.com/Beatrizvn/eps_-Onboarding_SecOps/actions/runs/23874250092/job/69613467150)
 
 ---
 
