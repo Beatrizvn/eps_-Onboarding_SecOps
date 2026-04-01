@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Projeto de Onboarding SecOps - EPS FGA0316 2026.1"
 authors = ["Beatriz Vieira Nascimento <beatriz@example.com>"]
 readme = "README.md"
-packages = [{include = "src"}]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
